@@ -1,0 +1,41 @@
+.main-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  }
+.header{
+grid-column: span 4;
+  background: #ecff7f;
+  color: #202602;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.sidebar{
+  grid-column:span 1;
+  background: #96bdb4;
+  color: red;
+  padding:10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  grid-column: span 3;
+  background: #7078ff;
+  color:#000000 ;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.footer{
+  grid-column:span 4;
+  background:#dfd100;
+  color: #df2b00;
+  padding:10px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
